@@ -268,25 +268,70 @@ h3 {
     font-size: small;
 }
 
-.foo {
+.nuestrasOficinas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 1.5em;
+    width: 90%;
+    max-width: 1200px;
+    background-color: #fff;
+    margin: 1.5em;
+    padding: 5px;
+}
+
+.buenosAires {
+    grid-column: 1/2;
+    text-align: center;
+    border: 1px solid rgb(2, 37, 63);
+    border-radius: 5px;
+    padding: 10x;
+    justify-content: center;
+}
+
+.tituloBA {
+    text-align: center;
+}
+
+.madrid {
+    grid-column: 2/3;
+    text-align: center;
+    border: 1px solid rgb(2, 37, 63);
+    border-radius: 5px;
+    padding: 10x;
+    justify-content: center;
+}
+
+.tituloMadrid { 
+    text-align: center;
+}
+
+.miami {
+    grid-column: 3/4;
+    text-align: center;
+    border: 1px solid rgb(2, 37, 63);
+    border-radius: 5px;
+    padding: 10x;
+    justify-content: center;
+}
+
+.tituloMiami {
+    text-align: center;
+}
+
+footer {
     background-color: rgb(6, 47, 74);
-    height: 120px;
+    min-height: 100px;
 }
 
-.fooItems {
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    list-style: none;
-    text-decoration: none;
+footer p {
+    color: #f3f3f3;
+    text-align: center;
 }
 
-.fooItems .foolink {
-    padding: 10px;
+#iconos {
+    font-size: 23px;
+    padding: 0 8px;
+    color: #f3f3f3;
 }
 
-.fooMail {
-    color: rgb(220, 219, 233);  
-}
