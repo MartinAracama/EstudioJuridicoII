@@ -302,8 +302,8 @@ h3 {
 
 .nuestrasOficinas {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 100px auto);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     gap: 1.5em;
     width: 90%;
     max-width: 1200px;
@@ -312,11 +312,11 @@ h3 {
     padding: 5px;
 }
 
-@media screen and (min-width: 720px){
+/*@media screen and (min-width: 720px){
   .NuestrasOficinas {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
-  }
+  }*/
 
 .buenosAires {
     grid-column: 1/2;
